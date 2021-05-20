@@ -1,1 +1,17 @@
-#content will be added
+
+
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:9494
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:7761/eureka
+      
+  instance:
+    hostname: loacalhost
+    prefer-ip-address: true 
