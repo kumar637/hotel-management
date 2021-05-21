@@ -1,1 +1,10 @@
 #conntent will be added
+spring:
+  data:
+    mongodb:
+      host: localhost
+      database: test
+      port: 27017
+logging:
+  level:
+    '[org.springframeWork.data.mongodb]': debug
